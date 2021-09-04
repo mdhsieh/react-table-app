@@ -4,24 +4,7 @@ import Form from './Form'
 
 class App extends Component {
     state = {
-        characters: [
-            /*{
-                name: "Charlie",
-                job: "Janitor" 
-            },
-            {
-                name: "Mac",
-                job: "Bouncer" 
-            },
-            {
-                name: "Dee",
-                job: "Aspiring Actress" 
-            },
-            {
-                name: "Dennis",
-                job: "Bartender" 
-            }*/
-        ]
+        characters: []
     }
 
     /** Remove a character from the table when button clicked*/
@@ -44,7 +27,7 @@ class App extends Component {
       return(
         <div className="container">
             <h1>Table App</h1>
-            <p>Add a character with a name and a job to the table</p>
+            <p>Add a character with a name and a job to the table.</p>
             <Table 
                 characterData={characters} 
                 removeCharacter={this.removeCharacter}
