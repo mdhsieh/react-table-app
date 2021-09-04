@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import Table from './Table'
 import Form from './Form'
 
+/** Table app where user can add or delete characters. */
 class App extends Component {
     state = {
         characters: []
