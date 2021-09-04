@@ -43,6 +43,7 @@ class App extends Component {
         const {characters} = this.state
       return(
         <div className="container">
+            <h1>Table App</h1>
             <p>Add a character with a name and a job to the table</p>
             <Table 
                 characterData={characters} 
